@@ -3,11 +3,4 @@ def agregar_experiencia(perfil_laboral, nueva_experiencia):
     return perfil_laboral
 
 def generar_cv_reducido(perfil_laboral):
-    print(f"CV de {perfil_laboral["nombre"]}{perfil_laboral["apellido"]}")
-    print(f"Edad:{perfil_laboral["edad"]}, Ciudad:{perfil_laboral["ciudad"]}")
-    print(f"Experiencia:{perfil_laboral["experiencias"]}")
-
-perfil_laboral = {"nombre": "Ana", "apellido": "Pérez", "edad": 30, "ciudad": "Madrid", "experiencias": ["Ingenieria de software en XTZ Corp"]}
-nueva_experiencia = "Gerente de proyecto en ABC Inc"
-perfil_laboral = agregar_experiencia(perfil_laboral, nueva_experiencia)
-generar_cv_reducido(perfil_laboral)
+    print()
