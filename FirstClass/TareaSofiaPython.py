@@ -12,11 +12,17 @@ city = input()
 print("Ingrese Usuario")
 usuario = input()
 
+while True:
+
 if city == "Cali" :
     print(Air_qualify(city, usuario))
+    break
 elif city == "Bello":
     print(Air_qualify(city, usuario))
+    continue
 elif city == "Medellin":
     print(Air_qualify(city, usuario))
+    break
 else:
     print("ingresa una respuesta valida")
+    continue
